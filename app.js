@@ -6,9 +6,8 @@ GEREKLİ PAKETLER YÜKLENİYOR...
 var http = require('http');
 var express = require('express');
 
-const app = express();
-var test = 1;
-const test = 2;;
+const num = 4
+num = 6
 var app = express();
 const demo = "Test"
 demo = "Another test"
