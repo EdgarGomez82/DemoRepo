@@ -6,6 +6,8 @@ GEREKLİ PAKETLER YÜKLENİYOR...
 var http = require('http');
 var express = require('express');
 
+const app = express();
+
 var app = express();
 
 app.set('port', process.env.PORT || 3005); // GİRİŞ PORTU AYARLANDI
