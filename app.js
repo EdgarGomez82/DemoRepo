@@ -7,7 +7,8 @@ var http = require('http');
 var express = require('express');
 
 const app = express();
-
+var test = 1;
+const test = 2;;
 var app = express();
 const demo = "Test"
 demo = "Another test"
