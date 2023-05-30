@@ -5,7 +5,8 @@ GEREKLİ PAKETLER YÜKLENİYOR...
 */
 var http = require('http');
 var express = require('express');
-
+const server = "localhost"
+server = "google.com"
 var app = express();
 
 app.set('port', process.env.PORT || 3005); // GİRİŞ PORTU AYARLANDI
