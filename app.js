@@ -22,6 +22,13 @@ require('./app/routes')(app); // ROUTE DOSYASI ÇAĞIRILDI
 HTTP SERVER OLUŞTURULDU
 
 */
+
+function test (){
+	var num =1;
+	const num =2
+	return num * 3;
+	
+}
 http.createServer(app).listen(app.get('port'), function(){
 	var test = 1;
 	var test = 2;
